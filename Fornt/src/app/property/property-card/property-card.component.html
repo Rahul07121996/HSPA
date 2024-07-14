@@ -1,18 +1,21 @@
-<div class="row">
-   
-    <div class="shadow-lg col-sm-4 p-3">
+
         <div class="card">
+            <div class="img-wrapper">
             <img src="assets/Image/hom_default.png" class="propImage">
-            <div class="card-body p-2">
-                <h1>{{property.Name}}</h1>
-                <h1> {{property.Type}}</h1>
-                <h1>{{property.Price}}</h1>
+        </div>
+            <div class="card-body p-1 h_50">
+                  <h1>{{property.Name}}</h1>
+                    <div class="d-flex justify-content-around">
+                        <h3> {{property.Type}}</h3>
+                        <h3>{{property.Price | currency:'Rs'}}</h3>
+                    </div>
+               
             </div>
         </div>
-    </div>
 
-</div>
-
+   
 
 
-fffsfdsf
+
+
+

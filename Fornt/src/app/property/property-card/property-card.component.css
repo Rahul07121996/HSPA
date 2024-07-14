@@ -1,4 +1,16 @@
 .propImage{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 300px;
+}
+
+.card img {
+    transition: transform 500ms ease-out;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.img-wrapper{
+    overflow: hidden;
 }
